@@ -1,8 +1,9 @@
 body {
   background-color: darkslategrey;
-  color: azure;
+  color: white;
   margin: 20px;
-  font: 32px "Century Gothic", Futura, sans-serif;
+  font: 40px "Century Gothic", Futura, Henny Penny;
+  font-family: "Henny Penny", cursive;
 }
 
 .game {
@@ -17,12 +18,22 @@ body {
 }
 
 .square {
-  background-color: rgb(109, 107, 107);
+  background-color: darkslategrey;
   color: white;
-  border: 1px solid #999;
+  border: 1px solid white;
   padding: 0;
   font-size: 80px;
   text-align: center;
   width: 100px;
   height: 100px;
+}
+
+.square:focus {
+  outline: none;
+  background-color: rgb(84, 141, 143);
+}
+
+.status {
+  margin: 20px;
+  font-size: 25px;
 }
